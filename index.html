@@ -52,12 +52,13 @@
     </nav>
 
     <!-- Header -->
+    <!-- <div id="particles-js"></div> -->
     <header class="masthead d-flex">
 
       <div class="container text-center my-auto">
-        <h1 class="mb-1" style='color:rgba(240, 248, 255, 0.603)'>Justin Boyd</h1>
+        <h1 class="mb-1" style='color:rgba(240, 248, 255, 0.733)'>Justin Boyd</h1>
         <h3 class="mb-5">
-          <em style="color:rgba(7, 191, 224, 0.514)">Full-Stack Web Developer</em>
+          <em style="color:rgba(240, 248, 255, 0.733)">Full-Stack Web Developer</em>
         </h3>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
       </div>
@@ -186,6 +187,7 @@
             </div>
           
           </div>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio" style="margin:50px 0 0 0">Projects</a>
       </div>
     </section>
 
@@ -200,7 +202,7 @@
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
-            <a class="portfolio-item" href="https://github.com/jrboyd90/project1">
+            <a class="portfolio-item" href="https://github.com/jrboyd90/project1" target="_blank">
               <span class="caption">
                 <span class="caption-content">
                   <h2>Helpr</h2>
@@ -211,33 +213,33 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://github.com/jrboyd90/rover" target="_blank">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                  <h2>Surveillance Rover</h2>
+                  <p class="mb-0">Raspberry Pi powered rover with live video feed through browser. Python, Tornado, Websocket, HTML, CSS, JS</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://github.com/jrboyd90/restaurant" target="_blank">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Strawberries</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                  <h2>Restaurant reviewer</h2>
+                  <p class="mb-0">Simple restaurant reviewer website. Node.js, Express, Express-sessions, HTML, pg-promise, postgreSQL, HTML, CSS</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://github.com/jrboyd90">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                  <h2>Coming Soon</h2>
+                  <p class="mb-0">I am always working on new projects. In the meantime, you can check out my github to see what I'm working on.</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
@@ -252,24 +254,35 @@
     
 
     <!-- Footer -->
-    <footer class="footer text-center">
+    
+    <footer class="footer text-center" id="contact">
+      <div class="col-lg-8 mx-auto">
+        <p class="lead mb-5">Feel free to contact me through Email or LinkedIn. <br> Also be sure to check out my resume and github below.
+        </p>
+      </div>
       <div class="container">
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
+            <a class="social-link rounded-circle text-white mr-3" href="Resume_JustinBoyd.pdf">
+              <i class="icon-doc"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/jrboyd90/">
+              <i class="icon-social-linkedin"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
+            <a class="social-link rounded-circle text-white" href="https://github.com/jrboyd90">
               <i class="icon-social-github"></i>
             </a>
           </li>
+          <!-- <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li> -->
+          
         </ul>
         <p class="text-muted small mb-0">Justin Boyd 2017</p>
       </div>
@@ -288,7 +301,9 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
+    
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/stylish-portfolio.js"></script>
 
   </body>
 
